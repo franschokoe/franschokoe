@@ -1,0 +1,670 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*head section*/
+.head{
+    text-align: center;
+    background-color: #45474e ;
+    padding-bottom: 30px;
+}
+.head h1{
+    color: white;
+    padding-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*form section*/
+.form-dev{
+    /*text-align: center;*/
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*Personal first*/
+.Personal {
+    background-color: #fbfcffd7;
+    border-radius: 50px;
+    text-align: center;
+    border-style:none;
+}
+.Personal h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1.9em;
+
+}
+.Personal label{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    line-height: 19px;
+    font-style: italic;
+
+}
+.Personal input{
+    background-color: #ececec;
+    line-height: 19px;
+    border-radius:5px;
+    border: none;
+}
+/*For contact information*/
+.contacts {
+    background-color:  #fbfcffd7;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.contacts h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1.9em;
+}
+.contacts label{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    line-height: 19px;
+    font-style: italic;
+
+}
+.contacts input{
+    background-color: #ececec;
+    line-height: 19px;
+    border-radius:5px;
+    border: none;
+}
+/*education*/
+.education {
+    background-color: #fbfcffd7;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.education h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1.9em;
+
+}
+.education label{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    line-height: 19px;
+    font-style: italic;
+
+}
+.education input{
+    background-color: #ececec;
+    line-height: 19px;
+    border-radius:5px;
+    border: none;
+}
+/*work experience*/
+
+.Experience {
+    background-color: #fbfcffd7;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.Experience h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1.9em;
+
+}
+.Experience label{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    line-height: 19px;
+    font-style: italic;
+
+}
+.Experience input{
+    background-color: #ececec;
+    line-height: 19px;
+    border-radius:5px;
+    border: none;
+}
+/*skill*/
+.Skills {
+    background-color: #fbfcffd7;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.Skills h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1.9em;
+
+}
+.Skills label{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    line-height: 19px;
+    font-style: italic;
+
+}
+.Skills input{
+    background-color: #ececec;
+    line-height: 19px;
+    border-radius:5px;
+    border: none;
+    padding: 20px;
+    width: 350px;
+}
+/*Project*/
+
+.Project {
+    background-color: #fbfcffd7;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.Project h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1.9em;
+
+}
+.Project label{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    line-height: 19px;
+    font-style: italic;
+
+}
+.Project input{
+    background-color: #ececec;
+    line-height: 19px;
+    border-radius:5px;
+    border: none;
+    padding: 20px;
+    width: 350px;
+}
+.button{
+    text-align: center;
+    padding: 10px;
+}
+.button button{
+    font-size: 1.4em;
+    background-color: #262f5e;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: none;
+    border-radius:5%;
+
+    
+}
+footer{
+    
+        text-align: center;
+        background-color: #45474e ;
+        padding-top: 50px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width:561px){
+    /*head*/
+.head{
+    background-color:  #17181D;
+    padding-bottom: 30px;
+}
+.head h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Cabin", sans-serif;
+    color:white;
+}
+
+/*form*/
+.form-dev{
+    padding-left:0;
+    padding-right: 0px;
+}
+/*personal info*/
+.Personal /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.Personal h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Personal label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Personal input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    
+
+
+    background-color: #ececec;
+}
+/*for contact info*/
+.contacts /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.contacts h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.contacts label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.contacts input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    background-color: #ececec;
+}
+
+/*eDUCATION SECTION*/
+.education /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.education h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.education label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.education input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    background-color: #ececec;
+}
+/*work-experience*/
+.Experience /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.Experience h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Experience label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Experience input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    background-color: #ececec;
+}
+/*skill section*/
+.Skills /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+    text-align: center;
+
+}
+.Skills h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Skills label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Skills input{
+    text-align: center;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border-style: none;
+    height: 21.5px;
+    width: 300px;
+    background-color: #ececec;
+}
+/*project section*/
+.Project /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+    text-align: center;
+
+}
+.Project h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Project label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Project input{
+    text-align: center;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border-style: none;
+    height: 21.5px;
+    width: 300px;
+    background-color: #ececec;
+}
+/*button*/
+.button{
+    text-align: center;
+    padding: 10px;
+}
+.button button{
+    font-size: 1.03em;
+    background-color: #37383b;
+    padding: 10px;
+    color: white;
+    font-family: Verdana,Tahoma, sans-serif;
+    border-style: none;
+    border-radius:5%;
+
+    
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================================================================================*/
+
+
+@media all and (max-width:375px){
+/*head*/
+.head{
+    background-color:  #17181D;
+    padding-bottom: 30px;
+}
+.head h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Cabin", sans-serif;
+    color:white;
+}
+
+/*form*/
+.form-dev{
+    padding-left:0;
+    padding-right: 0px;
+}
+/*personal info*/
+.Personal /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.Personal h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Personal label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Personal input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    
+
+
+    background-color: #ececec;
+}
+/*for contact info*/
+.contacts /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.contacts h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.contacts label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.contacts input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    background-color: #ececec;
+}
+
+/*eDUCATION SECTION*/
+.education /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.education h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.education label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.education input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    background-color: #ececec;
+}
+/*work-experience*/
+.Experience /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+
+}
+.Experience h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Experience label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Experience input{
+    border-radius: 2px;
+    border-style: none;
+    height: 21.5px;
+    background-color: #ececec;
+}
+/*skill section*/
+.Skills /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+    text-align: center;
+
+}
+.Skills h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Skills label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Skills input{
+    text-align: center;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border-style: none;
+    height: 21.5px;
+    width: 300px;
+    background-color: #ececec;
+}
+/*project section*/
+.Project /*this is div*/{
+    padding: 5px;
+    line-height: 1.6em;
+    text-align: center;
+
+}
+.Project h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Cabin", sans-serif;
+}
+.Project label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    font-style: oblique;
+    color: black;
+    font-size:1em ;
+}
+.Project input{
+    text-align: center;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border-style: none;
+    height: 21.5px;
+    width: 300px;
+    background-color: #ececec;
+}
+/*button*/
+.button{
+    text-align: center;
+    padding: 10px;
+}
+.button button{
+    font-size: 1em;
+    background-color: #17181b;
+    padding: 10px;
+    color: white;
+    font-family: Verdana,Tahoma, sans-serif;
+    border-style: none;
+    border-radius:5%;
+}
+.button .button:hover{
+
+    background-color: rgba(255, 255, 255, 0.692);
+    color: black;
+    transition: ease-in;
+    transition-duration: 1s;
+}
+
+
+
+
+}

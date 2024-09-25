@@ -1,0 +1,236 @@
+*{
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-right: 1px;    
+}
+html{
+    background-color: #F0F3FA;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #45474e;
+    padding-bottom: 15px;
+    padding-top: 10px;  
+}
+footer p {
+    color: white;
+    text-align: center; 
+}
+/*Navigator bar section*/
+.navigator{
+    
+    padding-top: 10px;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    background-color: #45474e;
+}
+.navbars{
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    float: right;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbars li a{
+    text-align: center;
+}
+.navbars li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.navbars li a:hover{
+
+    background-color: #d5deef;
+    padding-top:10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: ease-out;
+    transition-duration: 0.7s;
+    transform-style: preserve-3d;
+}
+
+.CVplatform{
+    padding-top: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+    display: inline-block;
+}
+.CVplatform p {
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+}
+/*welcome & paragraph section*/
+@keyframes Welc {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.welcome{
+    font-size: 5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    animation: Welc 1s ease-in 0s 1 normal none;
+}
+.paragraph{
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    display: block;
+}
+/*Orderlist*/
+
+.order-List li{
+    font-size: 3.2vh;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px
+}
+.order-List a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+
+}
+/*max width*/
+@media all and (max-width:561px){
+    .navigator{
+        padding-top: 10px;
+        justify-content: space-between;
+        background-color:#45474e;
+        padding-bottom: 50px;
+    }
+    .CVplatform{
+        text-align: center;
+    }
+
+}
+
+
+/*Mobile*/
+@media all and (max-width:375px){
+    html{
+        margin: 0;
+        padding: 0;
+        background-color:#e2e2e2;
+    }
+    /*Navbar mobile*/
+    .navigator{
+        background-color: #17181D;
+        display: flex;
+        flex-direction:column;
+        border-radius: 1px;
+        padding:0px;
+        padding-top: 15px;
+
+    }
+    .CVplatform{
+        padding-top: 5px;
+        padding-right: 10px;
+        display:inline;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    .navbars{
+            font-size: 1rem;
+            float: right;
+            list-style: none;
+            justify-content: space-between;
+            display:flex;
+            gap: 1px;
+            padding-left: 10px;
+    }
+    .navbars li a:hover{
+        cursor: pointer;
+        background-color:#e2e2e2 ;
+        color: #17181D;
+        transition: 0.5s;
+        animation: ease-in;
+        border-radius: 14px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    .navbars li a:active{
+        color: red;
+        transition-duration: 0.3s;
+    }
+    
+    /*footer section*/
+    footer{
+        background-color: #17181D;
+        padding-bottom: 5px;
+        padding-top: 5px;
+
+    }
+    /*welcome and paragraph*/
+    @keyframes bar{
+        from{ transform: translateY(40px);
+        }
+        to { transform:translateY(o);
+        }
+    }
+    .welcome{
+        font-size: 2.5em;
+        margin-bottom: 0%;
+        padding-bottom: 25px;
+        animation: bar 1s ease-out 0s 1 normal none;
+    }
+    .paragraph{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 2rem;
+        margin: 0 auto;
+    }
+
+    /*orderlist*/
+    .order-List{
+        padding-top:0;
+        background-color: #121518a9;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 70px;
+        border-style: hidden;
+
+    }
+    .order-List li p {
+        padding-top: 10px;
+        margin: 0 auto;
+        text-align: center;
+        color:white;
+        
+    }
+
+
+
+
+
+}
+    
+
