@@ -1,10 +1,10 @@
 # 👋 Introduction:
-- Hi, im Frans Chokoe an enthusiastic developer & a computer science student who's passionate about tech innovations.
+- Hi, im Frans Chokoe an enthusiastic <strong>developer</strong> & a <strong>computer science</strong> student who's passionate about tech innovations.
 - My curiosity in Software & Web development started 3 years ago which led me to emabark more in this journey to solve real-world problems.
-- I enjoy tackling complex challlnges and finding solutions.
+- I enjoy tackling complex challenges and finding technical solutions for my community.
 
 # ✨On Going:
-- 🌱Currently solidifying my knowledge in <strong>Backend development</strong> & <strong>Mobile Development</strong>
+- 🌱Currently solidifying my knowledge in <strong>Python backend development</strong> & <strong>Mobile Development</strong>
 - 📫 How to reach me & collabs: email: <a>fmoyagabo@gmail.com</a>
 - 🔗 Lets connect <a href="https://www.linkedin.com/in/frans-chokoe/">LinkedIn</a> & <a href="https://www.instagram.com/_franschokoe_x/">Instagram<a>
 
