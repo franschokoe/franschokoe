@@ -1,6 +1,6 @@
 # 👋 Introduction:
 - Hi, im Frans Chokoe an enthusiastic <strong>developer</strong> & a <strong>computer science</strong> student who's passionate about tech innovations.
-- My curiosity in Software & Web development started 3 years ago which led me to emabark more in this journey to solve real-world problems.
+- My curiosity in Software & Web development started 3 years ago which led me to embark more in this journey to solve real-world problems.
 - I enjoy tackling complex challenges and finding technical solutions for my community.
 
 # ✨On Going:
