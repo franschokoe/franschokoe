@@ -12,6 +12,11 @@
 
 #### Programming Languages
 ![Python](https://img.shields.io/badge/Python-%234584b6?style=for-the-badge&logo=python&logoColor=%23ffde57&logoSize=auto&labelColor=%234584b6&color=%2356a7e7)
+![Static Badge](https://img.shields.io/badge/mysql-%234479A1?style=for-the-badge&logoColor=white&logoSize=auto)
+![Static Badge](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Static Badge](https://img.shields.io/badge/php-%23777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+
 
 
 #### Frameworks
